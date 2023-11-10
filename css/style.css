@@ -90,7 +90,17 @@ html {
 }
 
 .flexContainer div {
-    margin-left: 1%;
-    width: 44%;
+    margin-right: 1%;
+    width: 45%;
     padding: 16px;
+}
+
+.project img {
+    width: 424px;
+}
+
+.workGrid {
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
