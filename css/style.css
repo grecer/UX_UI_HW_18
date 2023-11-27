@@ -102,5 +102,29 @@ html {
 .workGrid {
     margin-left: 5%;
     display: grid;
+    grid-template-rows: max-content;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: "nonprofit" "placeholder";
+}
+
+
+@media only screen and (max-width: 600) {
+    .content {
+        margin-left: 30%;
+    }
+
+    .flexContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .workGrid {
+        margin-left: 5%;
+        display: grid;
+        grid-template-rows: 563px 563px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nonprofit" 
+        "placeholder";
+    }
 }
